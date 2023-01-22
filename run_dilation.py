@@ -12,6 +12,7 @@ are added until the given 26-connected component is 6-connected.
 
 import os
 import numpy as np
+from copy import deepcopy as cp
 from cc3d import connected_components
 from digital_topology import check_simple
 from dijkstra3d import dijkstra as get_ShortestPath
